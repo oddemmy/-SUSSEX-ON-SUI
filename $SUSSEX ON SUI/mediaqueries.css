@@ -1,0 +1,624 @@
+@media (max-width:1285.60px) {
+    .home-img .sussex-txt{
+    width: 200px;
+    height: 200px;
+    margin-top: 40%;
+    margin-left:5%;
+}
+.home-img img{
+    margin-top: 15% ;
+    width: 300px;
+    height: 550px;
+}
+.purchase-container{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 12%;
+    margin-top: 50px;
+    /* border-radius: 25px; */
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+.navigations{
+    display: none;
+    position: absolute;
+    width: 100%;
+}
+.navigations li{
+    display: block;
+    margin-right: 0;
+    padding: 10px;
+    border-bottom: 1px solid #444;
+}
+.menu-bar{
+    display: block;
+}
+nav{
+    gap: 20em;
+}
+
+.buy{
+    display: none;
+}
+}
+@media (max-width:1024px) {
+    .purchase-container{
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        padding-left: 12%;
+        margin-top: 50px;
+        /* border-radius: 25px; */
+        /* justify-content: space-around; */
+        gap: 30px;
+    }
+    .step1{
+        background-color: white;
+        width: 310px;
+        height: 250px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    
+    }
+    .step2{
+        background-color: white;
+        width: 310px;
+        height: 250px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    
+    }
+    .step3{
+        background-color: white;
+        width: 310px;
+        height: 250px;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 500;
+        border-radius: 25px;
+        box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    
+    }
+    .step3 h2{
+        font-size: 28px;
+    }
+    .purchase-container{
+        width: 100%;
+        /* background-color: yellow; */
+        display: flex;
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-top: 50px;
+        /* border-radius: 25px; */
+        /* justify-content: space-around; */
+        gap: 30px;
+    }
+    .how-to-buy .how-to-buy-img{
+        width: 700px;
+    }
+    .community-content h1{
+        font-size: 27px;
+    }
+    .community-content p{
+        font-size: 23px;
+    }
+    .community-images{
+        height: 80px;
+    }
+
+    footer{
+        display: block;
+        align-items: center;
+        background-color: #C2DFFF;
+
+    }
+    footer img{
+    width: 150px;
+    margin-bottom: 0;
+    margin-left: 45%;
+    margin-right: 45%;
+    }
+    .bottom-navigations{
+        display: block;
+        gap: 30px;
+        padding-bottom: 25px;
+        text-align: center;
+    }
+}
+@media (max-width:820px) {
+    .about{
+    display: block;
+    height: 950px;
+    }
+    .about-sussex{
+    width: 500px;
+    height: fit-content;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    /* display: none; */
+}
+.about-container{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tokenomics h1{
+    margin-left: 22%;
+}
+.tokenomics img{
+    width: 450px;
+    height: 400px;
+    margin-left: 18%;
+}
+/* .how-to-buy{
+    height: 1200px;
+} */
+.how-to-buy h1{
+    margin-left: 30%;
+}
+.how-to-buy-img{
+    padding-left: 40%;
+    padding-top: 40px;
+    width: 50px;
+    display: none;
+}
+.purchase-container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 13%;
+    margin-top: 50px;
+    gap: 30px;
+    flex-direction: column;
+}
+.tokenomics img{
+    margin-left: 50%;
+}
+.tokenomics h1{
+    margin-left: 50%;
+}
+.step1{
+    height: 180px;
+}
+.step2{
+    height: 180px;
+}
+.step3{
+    height: 180px;
+}
+.community{
+    /* margin: auto; */
+    margin-left: 0%;
+}
+.community-content{
+    width: 80%;
+    
+   
+}
+.community-content h1{
+    padding-left: 10%;
+}
+.community-images{
+    display: flex;
+    margin-left: 20px;
+    /* flex-direction: column; */
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    padding-bottom: 20px;
+}
+.home-img{
+    width: 100%;
+    padding-left: 25%;
+    display: flex;
+    align-items: center;
+}
+.sussex-txt{
+    display: none;
+}
+.purchase{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+}
+@media (max-width:480px) {
+    .tokenomics{
+        height: 500px;
+    }
+    .tokenomics img{
+        width: 300px;
+        height: 300px;
+    }
+    .tokenomics h1{
+        margin-left: 15%;
+    }
+    .about{
+        height: 800px;
+    }
+    .about-sussex{
+        width: 350px;
+        height: 260px;
+        font-size: 15px;
+        margin-left: 8%;
+    }
+    .about-sussex h1{
+        padding-left: 16%;
+    }
+    .cat-img{
+        width: 300px;
+        margin-left: 10%;
+    }
+    .how-to-buy h1{
+        font-size: 60px;
+        margin-left: 20%;
+    }
+    .community{
+        padding-left: 20%;
+        height: 300px;
+    }
+    .community-content{
+        height: 200px;
+    }
+    .community-content h1{
+        font-size: 23px;
+        padding-left: 5%;
+    }
+    .community-content p{
+        padding-top: 5px;
+        font-size: 20px;
+        color: white;
+    }
+    .community-images{
+        margin-left: 25px;
+        height: 80px;
+    }
+    .community-images a{
+        width: 100px;
+        display: flex;
+        align-items: center;
+    }
+    a .TG-image{
+        width: 80px;
+    }
+    a .X-image{
+        width: 80px;
+    }
+    .purchase{
+        margin-bottom: 30px;
+    }
+    .purchase-container{
+        padding-left: 11%;
+    }
+    .purchase a{
+        width: 180px;
+        font-size: 25px;
+        padding-top: 15px;
+        padding-left: 10px;
+    }
+    .purchase img{
+        width: 150px;
+    }
+   
+    .home-img img{
+        width: 300px;
+        height: 320px;
+        /* margin-top: 50%; */
+        margin-left: 0%;
+    }
+    .middle{
+        font-size: 33px;
+    }
+    .navigations{
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    .navigations li{
+        display: block;
+        margin-right: 0;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+    .menu-bar{
+        display: block;
+    }
+    nav{
+        gap: 22px;
+    }
+    
+}
+@media (max-width:430px) {
+    .tokenomics-img{
+        margin-right: 10%;
+    }
+}
+@media (max-width:360px) {
+    #tokenomics-img{
+        margin-left: 10%;
+    }
+    .tokenomics-txt{
+        font-size:30px;
+    }
+}
+@media (max-width:344px) {
+    .step1{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+    }
+    .step2{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+    }
+    .step1 h2{
+        font-size: 23px;
+    }
+    .step2 h2{
+        font-size: 23px;
+    }
+    .step3 h2{
+        font-size: 23px;
+    }
+    .step3{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+        /* margin-bottom: 40px; */
+    }
+    .tokenomics{
+        height: 400px;
+    }
+    #tokenomics-img{
+        margin-left: 10%;
+    }
+    .purchase-container{
+        padding-left: 26px;
+        margin-top: 30px;
+    }
+    .how-to-buy{
+        height: 700px;
+    }
+    .how-to-buy h1{
+        font-size: 40px;
+        padding-top: 20px;
+        margin-left: 0px;
+        padding-left: 38px;
+        /* background-color: pink; */
+    }
+    .tokenomics h1{
+        font-size: 45px;
+    }
+    #how-text{
+        font-size: 35px;
+        margin-left: 10%;
+    }
+    .community{
+        padding-top: 30%;
+        padding-left: 18px;
+        height: 300px;
+    }
+    .community-content{
+        width: 270px;
+    }
+    .community-content p{
+        /* width: 270px; */
+        font-size: 16px;
+        /* margin-left: 20px; */
+    }
+    .middle{
+        font-size: 30px;
+    }
+    .community-content h1{
+        /* width: 60%; */
+        font-size: 21px;
+    }
+    .community-images{
+        margin-top: 13%;
+        height: 60px;
+        margin-left: 15px;
+    }
+    .cat-img{
+        width: 160px;
+        margin-left: 0%;
+        display: none;
+    }
+    .purchase a{
+        width: 170px;
+        font-size: 23px;
+    }
+    .home{
+        padding-top: 30%;
+    }
+    .home-img img{
+        margin-right: 35%;
+        display: none;
+    }
+    .main-cat{
+        margin-right: 70%;
+        
+    }
+    .purchase img{
+        width: 130px;
+    }
+    .about{
+        height: 600px;
+    }
+    .about-sussex{
+        width: 270px;
+        margin-left: 6px;
+    }
+    .about-sussex h1{
+        font-size: 15px;
+    }
+    .about-sussex p{
+        font-size: 14px;
+    }
+    .navigations{
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    .navigations li{
+        display: block;
+        margin-right: 0;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+    .menu-bar{
+        display: block;
+    }
+    nav{
+        gap: 10px;
+    }
+ 
+}
+@media (max-width:320px) {
+    .step1{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+    }
+    .step2{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+    }
+    .step1 h2{
+        font-size: 23px;
+    }
+    .step2 h2{
+        font-size: 23px;
+    }
+    .step3 h2{
+        font-size: 23px;
+    }
+    .step3{
+        width: 250px;
+        height: fit-content;
+        font-size: 17px;
+        /* margin-bottom: 40px; */
+    }
+    .tokenomics{
+        height: 400px;
+    }
+    .tokenomics img{
+        /* background-color: pink; */
+        margin-left: 40px;
+        width: 250px;
+        height: 250px;
+    }
+    .purchase-container{
+        padding-left: 26px;
+        margin-top: 30px;
+    }
+    .how-to-buy{
+        height: 700px;
+    }
+    .how-to-buy h1{
+        font-size: 40px;
+        padding-top: 20px;
+        margin-left: 0px;
+        padding-left: 38px;
+        /* background-color: pink; */
+    }
+    .tokenomics h1{
+        font-size: 45px;
+    }
+    .community{
+        padding-top: 30%;
+        padding-left: 18px;
+        height: 300px;
+    }
+    .community-content{
+        width: 270px;
+    }
+    .community-content p{
+        /* width: 270px; */
+        font-size: 16px;
+        /* margin-left: 20px; */
+    }
+    .middle{
+        font-size: 30px;
+    }
+    .community-content h1{
+        /* width: 60%; */
+        font-size: 21px;
+    }
+    .community-images{
+        margin-top: 13%;
+        height: 60px;
+        margin-left: 15px;
+    }
+    .cat-img{
+        width: 160px;
+        margin-left: 0%;
+        display: none;
+    }
+    .purchase a{
+        width: 170px;
+        font-size: 23px;
+    }
+    .home{
+        padding-top: 30%;
+    }
+    .home-img img{
+        margin-right: 35%;
+        display: none;
+    }
+    .main-cat{
+        margin-right: 70%;
+        
+    }
+    .purchase img{
+        width: 130px;
+    }
+    .about{
+        height: 600px;
+    }
+    .about-sussex{
+        width: 270px;
+        margin-left: 6px;
+    }
+    .about-sussex h1{
+        font-size: 15px;
+    }
+    .about-sussex p{
+        font-size: 14px;
+    }
+    .navigations{
+        display: none;
+        position: absolute;
+        width: 100%;
+    }
+    .navigations li{
+        display: block;
+        margin-right: 0;
+        padding: 10px;
+        border-bottom: 1px solid #444;
+    }
+    .menu-bar{
+        display: block;
+    }
+    nav{
+        gap: 10px;
+    }
+    
+}

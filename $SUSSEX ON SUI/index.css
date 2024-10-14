@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* background-color: #C2DFFF; */
+}
+nav{
+    background-color: white;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-bottom: 15px;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    width: 100%;
+    /* border-radius: 20px; */
+    display: flex;
+    align-items: center;
+    box-shadow: 0 10px 10px -5px rgb(0, 0, 0.2) ;
+}
+.menu-bar{
+    display: none;
+}
+
+.home{
+    padding-top: 20px;
+    background-color: #C2DFFF;
+    height: 800px;
+}
+nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    margin-left: 20px;
+}
+nav h1{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    cursor: pointer;
+}
+.navigations{
+    display: flex;
+    background-color: #C2DFFF;
+    /* margin-top: 200px; */
+    padding-top: 80px;
+    justify-content: space-around;
+    gap: 33px;
+    font-size: 25px;
+    margin: auto;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: none;
+}
+#menu{
+    cursor: pointer;
+}
+.navigations a{
+    text-decoration: none;
+    color: black;
+}
+.buy{
+    background-color: rgb(173, 182, 230);
+    color: white;
+    margin-right: 20px;
+    padding-left: 16px;
+    height: 50px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.buy a{
+    text-decoration: none;
+    color: white;
+}
+.home{
+    display: flex;
+    width: 100%;
+}
+.home-img{
+    width: 50%;
+    display: flex;
+    padding-left: 10px;
+    /* background-color: pink; */
+}
+.home-img img{
+    margin-top: 15% ;
+    margin-left: 10%;
+    width: 50%;
+}
+.cat-img
+.home-img .sussex-txt{
+    width: 300px;
+    height: 300px;
+    margin-top: 50%;
+    margin-left: 60%;
+}
+.purchase{
+    /* margin: 0 40%; */
+    width: 50%;
+    /* background-color: burlywood; */
+    padding-top: 15%;
+    padding-left: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* .purchase .buy-token{
+    margin-top: 50%;
+} */
+.purchase a{
+    color: black;
+    background-color: white;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    width: 220px;
+    height: 60px;
+    font-size: 30px;
+    padding-left: 15px;
+    padding-top: 13px;
+    font-weight: bolder;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.purchase a:hover{
+    background-color: black;
+    color: white;
+    
+}
+.purchase img{
+    width: 200px;
+    border-radius: 100%;
+
+}
+.middle{
+    height: fit-content;
+    width: 100%;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: black;
+    font-weight: bolder;
+    background-color: #C2DFFF;
+    z-index: -1;
+    /* margin-bottom: 0; */
+    /* background-color: burlywood; */
+}
+
+hr{
+    color: white;
+}
+.about{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: 20px; */
+    padding: 20px 10px;
+    margin-top: 0;
+    background-color: whitesmoke;
+    background: linear-gradient(to bottom, #C2DFFF 0%, white 100%);
+}
+.about-container{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+.about .sussex-sky{
+    width: 100%;
+    height: 120px;
+}
+.popee-img{
+    height: 500px;
+    width: 450px;
+    margin-top: 25px;
+    /* background-color: lightgrey; */
+}
+.popee-img img{
+    width: 450px;
+    height: 500px;
+}
+.main-cat{
+    margin-right: 25%;
+}
+.about-sussex{
+    width: 500px;
+    height: 300px;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 20px;
+    margin-right: 5%
+}
+.about-sussex h1{
+    color: white;
+    padding-left: 20%;
+}
+.about-sussex p{
+    padding-top: 20px;
+}
+.tokenomics{
+    height: 600px;
+    padding-right: 50%;
+    background-color: #C2DFFF;
+}
+.tokenomics h1{
+    font-size: 70px;
+    /* margin-right: 80%; */
+    /* margin-top: 50px; */
+    padding-top: 20px;
+    margin-left: 50%;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+.tokenomics-txt{
+    margin-left: 50%;
+}
+.tokenomics-img{
+    margin-left: 10%;
+}
+.tokenomics img{
+    width: 450px;
+    height: 400px;
+    margin-left: 40%;
+}
+.how-to-buy{
+    height: 950px;
+    background-color: #C2DFFF;
+  
+    /* padding-right: 1%; */
+}
+#how-text{
+    margin-left: 20%;
+    font-size: 50px;
+}
+.how-to-buy h1{
+    font-size: 50px;
+    margin-left: 50%;
+    padding-right: 0%;
+    padding-top: 40px;
+    color: black;
+    font-style: italic;
+    font-weight: bolder;
+}
+.how-to-buy img{
+    padding-left: 40%;
+    padding-top: 40px;
+}
+.purchase-container{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    padding-left: 20%;
+    margin-top: 50px;
+    margin-right: 30%;
+    /* margin: auto; */
+    /* border-radius: 25px; */
+    /* justify-content: space-around; */
+    gap: 30px;
+}
+.step1{
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+
+}
+.step1:hover{
+    transform: translate(10px 10px);
+}
+.step1 h2{
+    color: #061EF4;
+}
+.step1 p{
+    /* color: #061EF4; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.step2{
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+}
+.step2 h2{
+    color: #061EF4;
+}
+.step2 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.step3{
+    background-color: white;
+    width: 310px;
+    height: 250px;
+    padding: 20px;
+    font-size: 22px;
+    font-weight: 500;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+}
+.step3 h2{
+    color: #061EF4;
+}
+.step3 p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.community{
+    background-color: #C2DFFF;
+    background: linear-gradient(to bottom, #C2DFFF 0%, #ffffff 100%);
+    padding-left: 30%;
+    padding-top: 1%;
+    height: 400px;
+    /* display: flex;
+    align-items: center; */
+}
+.community-content{
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    padding: 20px;
+    padding-bottom: 5px;
+    width: 60%;
+    height: 300px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px 5px rgba(0,0,0.2);
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.community-content h1{
+    color: #FF4D4D;
+    padding-left: 18%;
+    font-size: 40px;
+    font-weight: bolder;
+}
+.community-content p{
+    font-size: 25px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+.community-images{
+    display: flex;
+    background-color: white;
+    width: fit-content;
+    margin: 10px 20px;
+    height: 100px;
+    border-radius: 25px;
+}
+.community-images a{
+    width: 120px;
+    display: flex;
+    align-items: center;
+}
+a .TG-image{
+    width: 100px;
+}
+a .X-image{
+    width: 100px;
+}
+
+footer{
+    background-color: #C2DFFF;
+    background: linear-gradient(to bottom, #C2DFFF 0%, #ffffff 100%);
+    height: 250px;
+    display: flex;
+    /* width: 100%; */
+  
+}
+footer a{
+    color: black;
+    text-decoration: none;
+}
+footer img{
+    width: 200px;
+    margin: 30px 150px;
+}
+.bottom-navigations{
+    display: flex;
+    gap: 30px;
+    font-size: 25px;
+    font-weight: bolder;
+    font-style: unset;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+/* @media (max-width: 768px) {
+    nav{
+        display: none;
+
+    }
+    .purchase img{
+        display: block;
+        margin-left: 40%;
+        margin-right: 40%;
+        width: 200px;
+        border-radius: 100%;
+
+        
+    }
+}
+
+@media (max-width: px) {
+    
+} */
+
+
+/* .container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
